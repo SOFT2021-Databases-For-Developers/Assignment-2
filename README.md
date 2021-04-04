@@ -42,11 +42,16 @@ The following equation is used to calculate the required number of bits of space
 E is the false false positive rate.  
   
 
- 1.44log2(1/E) = 1.44log(2(1/0.01)) = 9.56715291328  
+ 1.44log2(1/E) = 1.44log(2(1/0,01)) = 9,56715291328  
 
  So we need approximately 10 bits per element to reach a false positive rate of 1%.  
 
  ####  How many bits per element are required for a 5% false positive rate?  
- 1.44log2(1/E) = 1.44log(2(1/0.05)) = 6.22357645664  
- 
+ 1.44log2(1/E) = 1.44log(2(1/0,05)) = 6,22357645664  
+
 So we need approximately 7 bits per element to reach a false positive rate of 5%.  
+
+#### If you are to store one million ASCII strings with an average size of 10
+characters in a bloom filter, what would be the approximate space consumption, given an allowed false positive rate of 5%?.
+
+6,22357645664 * 10.000.000 = 62.235.765 bits
