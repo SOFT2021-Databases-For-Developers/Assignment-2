@@ -19,6 +19,13 @@ What you'll need:
 ## How to run the js task
 
 ## Task 1 - Investigation
+#### What is the point of NoSQL databases?
+The point of noSQL is that it is flexibil compared to normal SQL. One thing that makes noSQL more flexibil is the way that noSQL doesn't have the same rules as normal sql.  
+
+This makes processes like storing unstructured data easy, you can fx store the data as json data so you don't have to think about how the data has to be split into tables. This non-rigid nature of NoSQL also makes it much easier to update the structure of the database.  
+
+Another point of noSQL can be found in the performance it brings to the table compared to sql. This is because in SQL you have to access data across multiple tables. Whereas with noSQL you have everything in one place which makes noSQL much faster than normal SQL.
+
 
 ## Task 2 - Bloom Filters
 #### What is a bloom filter?  
