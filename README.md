@@ -8,8 +8,7 @@
 ## Setup
 What you'll need:
 1. Python 3
-2. Java
-3. Your favorite IDE that can run java. We use IntelliJ
+2. Nodejs
 
 ## How to run the python tasks
 1. Open your CMD
@@ -17,6 +16,9 @@ What you'll need:
 3. Write `python program.py` to run the program.
 
 ## How to run the js task
+1. Open your CMD
+2. Navigate to [Task-4-map-and-reduce](/Task-4-map-and-reduce)
+3. Write `node Task4MapAndReduce.js` to run the program.
 
 ## Task 1 - Investigation
 #### What is the point of NoSQL databases?
