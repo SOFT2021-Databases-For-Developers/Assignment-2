@@ -26,6 +26,25 @@ This makes processes like storing unstructured data easy, you can fx store the d
 
 Another point of noSQL can be found in the performance it brings to the table compared to sql. This is because in SQL you have to access data across multiple tables. Whereas with noSQL you have everything in one place which makes noSQL much faster than normal SQL.
 
+#### What is the CAP theorem? 
+The CAP theorem is like the classic statement you hear “Cheap, Fast, and Good: Pick Two”.
+CAP is a theorem that applies to distributed systems for storing data on one or more machines, these machines can be physical or virtual machines, that faktore does not change the theorem. CAP stands for consistency, availability, and partition tolerance (the ‘C,’ ‘A’ and ‘P’ in CAP). And the theorem clams that you can only achieve two of the three of  consistency, availability, and partition tolerance. 
+
+**Consistency**  
+Means that all clients can see the same data simultaneously which means when data is updated on one note the note must update all the other notes. 
+
+**Availability**  
+Means that you can always get a data response, even if one or more notes are down.  
+Another way to say this is that any working note must always return a valid response.
+
+**Partition Tolerance**
+Is about temporarily delayed/breaks in the connection between two nodes. And Partition tolerance means that if a delay/break occurs, the cluster must continue to work.
+
+#### What are the ideal use cases of HBase?
+The strong point of HBase lies how excellent it is in scalability and performance for big workloads, HBase also comes with autoload balancing and failover features that makes it ideal for big applications with big and growing workloads, and is the reason that it is used by Facebook for there message infrastructure and Twitter uses it for transactional tables in Twitter's production backend.
+
+
+
 
 ## Task 2 - Bloom Filters
 #### What is a bloom filter?  
