@@ -14,8 +14,8 @@ What you'll need:
 ## Task 1 - Investigation
 
 ## Task 2 - Bloom Filters
-1. What is a bloom filter?  
-    asdasdasd
+#### What is a bloom filter?  
+asdasdasd
 
 ## How to run the python tasks
 1. Open your CMD
