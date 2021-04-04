@@ -1,22 +1,26 @@
 const one = () => {
     let array = [1,9,16,100]
-    array.map(item => item.sqrt())
+    let res = array.map(item => Math.sqrt(item))
+    console.log(res)
 }
 
 const two = () => {
     let array =  ["Intro", "Requirements", "Analysis", "Implementation", "Conclusion", "Discussion",
         "References"]
-    array.map(item => "<h1>" + item + "</h1>")
+    let res = array.map(item => "<h1>" + item + "</h1>")
+    console.log(res)
 }
 
 const three = () => {
     let array = ["i'm", "yelling", "today"]
-    array.map(item => item.toUpperCase())
+    let res = array.map(item => item.toUpperCase())
+    console.log(res)
 }
 
 const four = () => {
     let array = ["I", "have", "looooooong", "words"]
-    array.map(item => item.length)
+    let res = array.map(item => item.length)
+    console.log(res)
 }
 
 const five = () => {
@@ -29,7 +33,8 @@ function reduceAdder(total, num) {
 
 const six = () => {
     let array = [1,2,3,4,5]
-    array.reduce(reduceAdder)
+    let res = array.reduce(reduceAdder)
+    console.log(res)
 }
 
 function reduceX(sum, xObject) {
@@ -38,7 +43,8 @@ function reduceX(sum, xObject) {
 
 const seven = () => {
     let array = [{x: 1}, {x: 2}, {x: 3}]
-    array.reduce(reduceX)
+    let res = array.reduce(reduceX)
+    console.log(res)
 }
 
 function reduceArrayFlatten(flatten, array) {
@@ -48,20 +54,36 @@ function reduceArrayFlatten(flatten, array) {
 
 const eight = () => {
     let array = [[1,2], [3,4], [5,6]]
-    array.reduce(reduceArrayFlatten)
+    let res = array.reduce(reduceArrayFlatten)
+    console.log(res)
 }
 
-function reducePositiveNumbers(sumArray, array) {
-    array.map(item => {
-        if(item => 0)
-        {
-            sumArray.push(item)
-        }
-    })
+function reducePositiveNumbers(sumArray, number) {
+    sumArray.push(number)
     return sumArray
 }
 
 const nine = () => {
     let array = [-3, -1, 2, 4, 5]
-    array.reduce(reducePositiveNumbers)
+    let res = array.reduce(reducePositiveNumbers)
+    console.log(res)
 }
+var count = 0
+console.log("-------[" + (++count) +"]--------")
+one()
+console.log("-------[" + (++count) +"]--------")
+two()
+console.log("-------[" + (++count) +"]--------")
+three()
+console.log("-------[" + (++count) +"]--------")
+four()
+console.log("-------[" + (++count) +"]--------")
+five()
+console.log("-------[" + (++count) +"]--------")
+six()
+console.log("-------[" + (++count) +"]--------")
+seven()
+console.log("-------[" + (++count) +"]--------")
+eight()
+console.log("-------[" + (++count) +"]--------")
+//nine()
