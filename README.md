@@ -11,6 +11,12 @@ What you'll need:
 2. Java
 3. Your favorite IDE that can run java. We use IntelliJ
 
+## Task 1 - Investigation
+
+## Task 2 - Bloom Filters
+1. What is a bloom filter?  
+    asdasdasd
+
 ## How to run the python tasks
 1. Open your CMD
 2. Navigate to the root folder of the task you wish to run
