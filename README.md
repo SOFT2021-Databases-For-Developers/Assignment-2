@@ -85,6 +85,7 @@ characters in a bloom filter, what would be the approximate space consumption, g
 6,22357645664 * 10.000.000 = 62.235.765 bits
 
 ## Task 3 - Huffman Coding
+<img src="Task-3-Huffman-Coding\img\huffmantree.png">
 See the code
 
 ## Task 4 - Map and Reduce
